@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7275983225208408747
+--- !u!114 &-3693259850616556640
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,9 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Outline2
-  m_Shader: {fileID: -6465566751694194690, guid: f12382f535efa4c47a70682915e8d743,
-    type: 3}
+  m_Name: Shader Graphs_Outline
+  m_Shader: {fileID: -6465566751694194690, guid: 26e3cd3ead2e54aefa517e26105b0816, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -30,7 +29,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3016
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -51,10 +50,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Fade_Distance: 30
-    - _Outline_Thickness: 0.0006
+    - _OutlineThickness: 0.05
     - _QueueControl: 0
-    - _QueueOffset: 16
+    - _QueueOffset: 0
     m_Colors:
-    - _Outline_Color: {r: 0.01886791, g: 0.01886791, b: 0.01886791, a: 1}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
